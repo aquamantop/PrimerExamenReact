@@ -18,7 +18,7 @@ export default function Item(props) {
   }
 
   return (
-    <div className="producto">
+    <div className="producto" id={props.id} key={props.id}>
       {/* maquetar Item aquí */}
       <h3>{props.nombre}</h3>
       <p>{props.descripcion}</p>
